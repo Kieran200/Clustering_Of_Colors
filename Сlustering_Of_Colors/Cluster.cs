@@ -22,9 +22,9 @@ namespace Сlustering_Of_Colors
         {
             while (true)
             {
-                center_blue = rnd.Next(0, 256);
-                center_green = rnd.Next(0, 256);
-                center_red = rnd.Next(0, 256);
+                center_blue = rnd.Next(0, 255);
+                center_green = rnd.Next(0, 255);
+                center_red = rnd.Next(0, 255);
 
                 //устанавливаем расстояние между кластерами в 10 по всем координатам
                 int free_field = 1;

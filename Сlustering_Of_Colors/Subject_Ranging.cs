@@ -33,18 +33,22 @@ namespace Сlustering_Of_Colors
             while (stop < num_of_clusters)
             {
                 stop = 0;
+                //удаляем предыдущие объекты кластеров
+                foreach (Cluster cluster in clusterList)
+                    cluster.c_subjectList.Clear();
                 //распределение объектов в кластеры
                 for (int i = 0; i < num_of_subject; i++)
                 { 
+
                     cluster_id = -1;
                     distance_sc = 1000000000;
                     for (int j = 0; j < num_of_clusters; j++)
                     {
-                        if (distance_sc > Math.Sqrt((subjectList[i].green_intensity - clusterList[j].center_green) ^ 2 
-                            + (subjectList[i].red_intensity - clusterList[j].center_red) ^ 2 + (subjectList[i].blue_intensity - clusterList[j].center_blue) ^ 2))
+                        if (distance_sc > Math.Sqrt((long)Math.Pow((subjectList[i].green_intensity - clusterList[j].center_green), 2)
+                            + (long)Math.Pow((subjectList[i].red_intensity - clusterList[j].center_red), 2) + (long)Math.Pow((subjectList[i].blue_intensity - clusterList[j].center_blue), 2)))
                         {
-                            distance_sc = Math.Sqrt((subjectList[i].green_intensity - clusterList[j].center_green) ^ 2
-                            + (subjectList[i].red_intensity - clusterList[j].center_red) ^ 2 + (subjectList[i].blue_intensity - clusterList[j].center_blue) ^ 2);
+                            distance_sc = Math.Sqrt((long)Math.Pow((subjectList[i].green_intensity - clusterList[j].center_green), 2)
+                            + (long)Math.Pow((subjectList[i].red_intensity - clusterList[j].center_red), 2) + (long)Math.Pow((subjectList[i].blue_intensity - clusterList[j].center_blue), 2));
 
                             cluster_id = j;
                         }
@@ -69,6 +73,7 @@ namespace Сlustering_Of_Colors
                         clusterList[i].center_red += subject.red_intensity;
                         clusterList[i].center_blue += subject.blue_intensity;
                     }
+                
                     clusterList[i].center_green = clusterList[i].center_green / clusterList[i].c_subjectList.Count;
                     clusterList[i].center_red = clusterList[i].center_red / clusterList[i].c_subjectList.Count;
                     clusterList[i].center_blue = clusterList[i].center_blue / clusterList[i].c_subjectList.Count;
