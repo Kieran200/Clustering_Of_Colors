@@ -1,0 +1,14 @@
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\bin\Debug\netcoreapp3.1\Сlustering_Of_Colors.exe
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\bin\Debug\netcoreapp3.1\Сlustering_Of_Colors.deps.json
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\bin\Debug\netcoreapp3.1\Сlustering_Of_Colors.runtimeconfig.json
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\bin\Debug\netcoreapp3.1\Сlustering_Of_Colors.runtimeconfig.dev.json
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\bin\Debug\netcoreapp3.1\Сlustering_Of_Colors.dll
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\bin\Debug\netcoreapp3.1\Сlustering_Of_Colors.pdb
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.csproj.AssemblyReference.cache
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.AssemblyInfoInputs.cache
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.AssemblyInfo.cs
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.csproj.CoreCompileInputs.cache
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.dll
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.pdb
+C:\Users\Владелец\source\repos\Сlustering_Of_Colors\Сlustering_Of_Colors\obj\Debug\netcoreapp3.1\Сlustering_Of_Colors.genruntimeconfig.cache
